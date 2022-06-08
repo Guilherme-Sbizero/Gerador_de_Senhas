@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blueviolet;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #4D65F0;
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 300px;
+    height: 150px;
+    font-family: 'Segoe UI', sans-serif;
+    border-radius: 20px;
+    background-color: #FFFDFC;
+    font-weight: bold;
+}
+#numCarac{
+    width: 150px;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #4D65F0;
+    padding: 5px;
+}
+#btnPass{
+    outline: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #FFFDFC;
+    color: #383e56;
+    border: 1px solid #4D65F0;
+}
+#btnPass:hover{
+    border: 1px solid #4D65F0;
+    font-weight: bold;
+    
+}
+#lblPass{
+    font-size: 14px;
+}
